@@ -1,0 +1,492 @@
+Model Name,Model Size,Text Sample,Response to Prompt
+llama3.2,3b,"PREOPERATIVE DIAGNOSIS:,  Iron deficiency anemia.,POSTOPERATIVE DIAGNOSIS:,  Diverticulosis.,PROCEDURE:,  Colonoscopy.,MEDICATIONS: , MAC.,PROCEDURE: , The Olympus pediatric variable colonoscope was i...","Here is the list of extracted named entities along with their types:
+
+1. Iron deficiency anemia - DISEASE
+2. Diverticulosis - DISEASE
+3. MAC - MEDICATION ( likely a medication abbreviation, but not enough context to determine exact type)
+4. Olympus pediatric variable colonoscope - PRODUCT
+5. Cecum - LOCATION
+6. Ileocecal valve - LOCATION
+7. Appendiceal orifice - LOCATION
+8. Sigmoid colon - LOCATION
+9. Dr. X - PERSON (likely a doctor's name)
+
+"
+llama3.2,3b,"CLINICAL INDICATION:  ,Normal stress test.,PROCEDURES PERFORMED:,1.  Left heart cath.,2.  Selective coronary angiography.,3.  LV gram.,4.  Right femoral arteriogram.,5.  Mynx closure device.,PROCEDURE...","Here is the list of named entities extracted from the text:
+
+1. Left heart cath. (PROCEDURE) - ORGANIZATION
+2. Selective coronary angiography (PROCEDURE) - ORGANIZATION
+3. LV gram (PROCEDURE) - ORGANIZATION
+4. Right femoral arteriogram (PROCEDURE) - ORGANIZATION
+5. Mynx closure device (PROCEDURE) - PRODUCT
+6. Lidocaine (SUBSTANCE)
+7. LVEDP (VALUE) - QUANTITY
+8. LV-to-aortic gradient (VALUE) - QUANTITY
+9. Left main (CONCEPT) - ANATOMY
+10. LAD (ACRONYM) - ORGANISM (Artery)
+11. Left circumflex (CONCEPT) - ANATOMY (Artery)
+12. Right coronary (CONCEPT) - ANATOMY (Artery)
+13. Big diagonal (CONCEPT) - ANATOMY (Area of the heart)
+14. RCA (ACRONYM) - ORGANISM (Artery)
+15. Nonobstructive coronary artery disease (DISEASE) - CONDITION
+16. Calcified lesion (SUBSTANCE) - SUBSTANCE
+17. Medical therapy (TREATMENT) - MEDICINE
+18. Stress test (TEST) - TEST
+19. Surgery for the LAD lesion (Surgery) - MEDICAL PROEDURE
+
+Note: Some entities may have more specific classifications, but I've provided the most general classification for each one based on the context of the text.
+
+Here's a breakdown of the types:
+
+* PERSON: None
+* ORGANIZATION: Left heart cath., Selective coronary angiography, LV gram, Right femoral arteriogram
+* PRODUCT: Mynx closure device
+* SUBSTANCE: Lidocaine
+* QUANTITY: LVEDP, LV-to-aortic gradient
+* CONCEPT: Left main, Left circumflex, Right coronary, Big diagonal, RCA
+* ANATOMY: Left main, Left circumflex, Right coronary, LAD, RCA
+* ORGANISM: LAD, RCA (Note: These are acronyms for arteries)
+* DISEASE: Nonobstructive coronary artery disease
+* CONDITION: None
+* SUBSTANCE: Calcified lesion
+* MEDICINE: Medical therapy
+* TEST: Stress test
+* MEDICAL PROEDURE: Surgery for the LAD lesion
+
+"
+llama3.2,3b,"FINDINGS:,Axial scans were performed from L1 to S2 and reformatted images were obtained in the sagittal and coronal planes.,Preliminary scout film demonstrates anterior end plate spondylosis at T11-12...","Here is the list of named entities extracted from the text:
+
+1. L1 - LOCATION
+2. S2 - LOCATION
+3. T11-12 - LOCATION
+4. T12-L1 - LOCATION
+5. L1-2 - LOCATION (specific spinal segment)
+6. L2-3 - LOCATION (specific spinal segment)
+7. L3-4 - LOCATION (specific spinal segment)
+8. L4-5 - LOCATION (specific spinal segment)
+
+Note that the locations are spinal segments, which may not be typically classified as standard entities like PERSON or ORGANIZATION. However, for the purpose of this exercise, I have categorized them as LOCATIONS.
+
+No other named entities were found in the text, such as PEOPLE, ORGANIZATIONS, DATES, etc.
+
+"
+llama3.2,3b,"PREOPERATIVE DIAGNOSIS: , Blood loss anemia.,POSTOPERATIVE DIAGNOSES:,1.  Diverticulosis coli.,2.  Internal hemorrhoids.,3.  Poor prep.,PROCEDURE PERFORMED:,  Colonoscopy with photos.,ANESTHESIA: , Co...","Here is the list of named entities extracted from the text along with their respective types:
+
+1. Blood loss anemia (DISEASE)
+2. Diverticulosis coli (DISEASE)
+3. Internal hemorrhoids (DISEASE)
+4. Poor prep (NO ENTITY, likely a mistake in the original text)
+5. Colonoscopy (PROCEDURE)
+6. Photos (MEDIA)
+7. Anesthesia Department (ORGANIZATION)
+8. Endoscopy Suite (LOCATION)
+9. Digital rectal exam (PROCEDURE)
+10. Cecum (ORGAN)
+11. Sigmoid colon (ORGAN)
+12. Descending colon (ORGAN)
+13. Transverse colon (ORGAN)
+14. Ascending colon (ORGAN)
+15. EGD (PROCEDURE)
+16. Flexible sigmoidoscopy (PROCEDURE)
+17. Patient (PERSON)
+18. Hospital (LOCATION)
+19. High-fiber diet (DIET)
+20. Colace (MEDICATION)
+
+Note: Some entities, such as ""Poor prep"" and ""Specimens"", are not included in the list as they do not correspond to any specific entity type.
+
+"
+llama3.2,3b,"REASON FOR VISIT:  ,Elevated PSA with nocturia and occasional daytime frequency.,HISTORY: , A 68-year-old male with a history of frequency and some outlet obstructive issues along with irritative issu...","Here is the list of named entities extracted from the text:
+
+1. PSA - (THING/TEST RESULT)
+2. Nocturia - (SYNDROME)
+3. Dr. X - (PERSON)
+4. Proscar - (MEDICATION)
+5. Adenocarcinoma - (DISEASE)
+6. Alpha-blocker - (MEDICATION)
+
+Note that there are also some implied entities, such as the patient's medical history and treatment plan, but they are not explicitly named in the text.
+
+Also, it's worth noting that the entities ""Elevated PSA"" and ""PSA in 2004"" can be considered as variations of the same entity, ""PSA"", with different specific values. Similarly, ""PSAs high as noted above"" is another variation of the same entity, ""PSA"".
+
+If you want to include these variations, the list would be:
+
+1. PSA - (THING/TEST RESULT)
+2. Nocturia - (SYNDROME)
+3. Dr. X - (PERSON)
+4. Proscar - (MEDICATION)
+5. Adenocarcinoma - (DISEASE)
+6. Alpha-blocker - (MEDICATION)
+7. Elevated PSA - (THING/TEST RESULT)
+8. PSA in 2004 - (THING/TEST RESULT)
+9. PSAs high as noted above - (THING/TEST RESULT)
+
+"
+llama3.2,3b,"XYZ, O.D.,RE:  ABC,DOB:  MM/DD/YYYY,Dear Dr. XYZ:,Thank you for your kind referral for patient ABC.  Mr. ABC is being referred for evaluation of glaucoma.  The patient states he has no visual complain...","Here is the list of named entities extracted from the text:
+
+1. Dr. XYZ - PERSON
+2. Mr. ABC - PERSON
+3. XYZ (presumably Dr. XYZ's last name) - ORGANIZATION (professional affiliation or specialty, but not explicitly stated)
+4. O.D. (likely a notation for ""Optometrist"" or ""Ophthalmologist"", but not a clear named entity in this context)
+
+Note: There are no clear named entities for organizations, locations, dates, etc. as they do not appear in the text.
+
+However, I can provide some additional information about potential entities that could be inferred from the text:
+
+- ABC (possibly Mr. ABC's last name or full name) - PERSON
+- MM/DD/YYYY (presumably a date of birth) - DATE
+
+Please note that these are not explicitly stated as named entities in the original text, but they can be extracted and interpreted based on context.
+
+"
+llama3.2,3b,"PREOPERATIVE DIAGNOSES:,1.  Intrauterine pregnancy at 30 and 4/7th weeks.,2.  Previous cesarean section x2.,3.  Multiparity.,4.  Request for permanent sterilization.,POSTOPERATIVE DIAGNOSIS:,1.  Intra...","Here is the list of named entities extracted from the text along with their types:
+
+1. Pregnancy (LOCATION)
+2. Weeks (DATE)
+3. Cesarean section (PROCEDURE)
+4. Sterilization (PROCEDURE)
+5. Tubal ligation (PROCEDURE)
+6. Uterus (ORGAN)
+7. Ovaries (ORGAN)
+8. Fallopian tubes (ORGAN)
+9. Bladder (ORGAN)
+10. Abdomen (LOCATION)
+11. Baby (PERSON)
+12. Hip problems (CONDTION)
+13. Placenta (ORGAN)
+14. Cord (PART OF BODY)
+15. Uterine incision (PROCEDURE)
+16. Amniotic fluid (SUBSTANCE)
+17. Clots (SUBSTANCE)
+18. Debris (SUBSTANCE)
+19. Sutures (MEDICATION)
+20. Cautery (MEDICAL EQUIPMENT)
+21. Hemostats (MEDICAL EQUIPMENT)
+22. Metzenbaum scissors (MEDICAL EQUIPMENT)
+23. Mayo scissors (MEDICAL EQUIPMENT)
+24. Ochsner clamps (MEDICAL EQUIPMENT)
+25. Allis clamps (MEDICAL EQUIPMENT)
+26. Bandage scissors (MEDICAL EQUIPMENT)
+27. Vicryl suture (MEDICATION)
+28. Sterile clips (MEDICAL EQUIPMENT)
+29. Sponge (MEDICAL EQUIPMENT)
+30. Needle (MEDICAL EQUIPMENT)
+
+Note that some of these entities may be mentioned multiple times in the text, but they are listed here only once.
+
+As for specific people, there is no mention of any individuals by name.
+
+There are also several organizations mentioned, although they are not explicitly named:
+
+1. Hospital or medical facility (ORGANIZATION)
+2. Pediatricians (ORGANIZATION)
+
+However, these organizations are not explicitly named in the text.
+
+"
+llama3.2,3b,"REASON FOR CT SCAN: , The patient is a 79-year-old man with adult hydrocephalus who was found to have large bilateral effusions on a CT scan performed on January 16, 2008.  I changed the shunt setting...","Here is the list of named entities extracted from the text:
+
+1. January 16, 2008 - DATE
+2. February 12, 2008 - DATE
+3. March 11, 2008 (03/11/2008) - DATE
+4. Munro, foramen of - LOCATION
+5. Adult hydrocephalus - MEDICAL CONDITION
+6. Shunt setting - MEASUREMENT unit
+7. Subdural effusions - MEDICAL CONDITION
+8. 1.5 - NUMBER
+9. 2.0 - NUMBER
+
+Note that some entities may have multiple types, but I've only listed the most relevant or specific type for each entity.
+
+Also, there is no clear mention of a person's name, organization, location, etc., in the text.
+
+"
+llama3.2,3b,"CLINICAL HISTORY: , Patient is a 37-year-old female with a history of colectomy for adenoma.  During her preop evaluation it was noted that she had a lesion on her chest x-ray.  CT scan of the chest c...","Here is the list of extracted named entities along with their types:
+
+1. Patient (PERSON)
+2. Adenoma (ORGANISM)
+3. Chest x-ray (EVENT)
+4. CT scan (EVENT)
+5. Lung (LOCATION/ORGAN)
+6. Left lower lobe resection (PROCEDURE)
+7. Cytokeratin AE1/AE3 (CHEMICAL)
+8. CAM5.2 (CHEMICAL)
+9. Cytokeratin-20 (CHEMICAL)
+10. Cytokeratin-7 (CHEMICAL)
+11. Diastase (CHEMICAL)
+12. Synaptophysin (CHEMICAL)
+13. Chromogranin (CHEMICAL)
+14. S100 antibody (CHEMICAL)
+15. HMB-45 (CHEMICAL)
+16. Melan-A (CHEMICAL)
+17. Thyroid transcription factor marker (TTF-1) (CHEMICAL)
+18. Sarcomatoid carcinoma (DISEASE)
+19. Pleomorphic/giant cell carcinoma (DISEASE)
+20. Spindle cell carcinoma (DISEASE)
+21. Bronchial resection margins (LOCATION/STRUCTURE)
+22. Vascular margins (LOCATION/STRUCTURE)
+23. Hilar lymph nodes (LOCATION/STRUCTURE)
+24. pT1N1MX (PATHOLOGICAL STAGE)
+
+Note: Some entities may belong to multiple categories, but I've only listed each entity according to its most relevant or specific type.
+
+"
+llama3.2,3b,"INDICATION: , Iron deficiency anemia.,PROCEDURE:  ,Colonoscopy with terminal ileum examination.,POSTOPERATIVE DIAGNOSIS:,  Normal examination.,WITHDRAWAL TIME: , 15 minutes.,SCOPE: , CF-H180AL.,MEDICA...","Here is the list of named entities extracted from the text:
+
+1. Fentanyl (MEDICATION)
+2. Versed (MEDICATION)
+3. CF-H180AL (SCOPE)
+
+Note: There are no locations, dates, or other non-medical entities mentioned in the text.
+
+Also, it's worth noting that while there is a mention of a ""primary care physician"", this is not explicitly stated as a named entity, so I did not include it in the list.
+
+"
+llama3.2,3b,"PREOPERATIVE DIAGNOSIS: , Vitreous hemorrhage and retinal detachment, right eye.,POSTOPERATIVE DIAGNOSIS:,  Vitreous hemorrhage and retinal detachment, right eye.,NAME OF PROCEDURE: , Combined closed ...","Here is the list of named entities extracted from the text:
+
+1. Vitreous hemorrhage (CONDITION)
+2. Retinal detachment (CONDITION)
+3. Combined closed vitrectomy (PROCEDURE)
+4. Membrane peeling (PROCEDURE)
+5. Fluid-air exchange (PROCEDURE)
+6. Endolaser (PROCEDURE)
+7. Marcaine 0.5% (DRUG)
+8. Lidocaine 2% (DRUG)
+9. Accurus infusion line (DEVICE)
+10. Wire lid speculum (DEVICE)
+11. Modified sclerotomies (SURGICAL TECHNIQUE)
+12. Operating microscope (DEVICE)
+13. Optical illuminating system (DEVICE)
+14. Vicryl suture (#7-0) (MATERIAL)
+15. Plain gut suture (#6-0) (MATERIAL)
+16. Tenon's membrane (ANATOMY)
+17. Conjunctivae (ANATOMY)
+18. Tobrex (DRUG)
+19. Pressure bandage (MEDICAL DEVICES)
+
+Note that some entities, such as the patient's name and the specific date of the procedure, are not present in the text and therefore were not extracted.
+
+"
+llama3.2,3b,"REASON FOR CONSULT:,  Depression.,HPI:,  The patient is an 87-year-old white female admitted for low back pain status post hip fracture sustained a few days before Thanksgiving in 2006.  The patient w...","Here is the list of named entities extracted from the text:
+
+1. Person - The patient (age, sex, medical history)
+2. Organization - Terrace Independent Living Center
+3. Location - Terrace
+4. Date - 
+   * 2006 (year of hip fracture and vertebroplasty)
+   * January 29, 2007 (date of MRI)
+5. Event - 
+   * Hip fracture
+   * Vertebroplasty
+   * Meningioma diagnosis
+   * Hysterectomy
+   * MI
+   * Osteoporosis
+   * Right total knee replacement
+6. Disease/Condition - 
+   * Depression
+   * Hypertension
+   * Cataracts
+   * Diabetes
+   * Osteoporosis
+   * Meningioma
+7. Medication - 
+   * Norvasc
+   * Aspirin
+   * Lipitor
+   * Klonopin
+   * Digoxin
+   * Lexapro
+   * TriCor
+   * Lasix
+   * Ismo
+   * Lidocaine patch
+   * Zestril
+   * Prinivil
+   * Lopressor
+   * Starlix
+   * Pamelor
+   * Polyethylene glycol
+   * Potassium chloride
+   * Norco
+   * Zofran
+
+Note: Some entities may belong to multiple categories (e.g., ""Meningioma"" can be both a disease/condition and an event).
+
+"
+llama3.2,3b,"PREOPERATIVE DIAGNOSIS: , Bunion, left foot.,POSTOPERATIVE DIAGNOSIS: ,Bunion, left foot.,PROCEDURE PERFORMED:,1.  Bunionectomy with first metatarsal osteotomy base wedge type with internal screw fixa...","Here is the list of named entities extracted from the text:
+
+1. Bunion (LOCATION, ORGAN)
+2. Left foot (LOCATION, BODY PART)
+3. ABCD General Hospital (ORGANIZATION, LOCATION)
+4. Caucasian female (PERSON, ETHNICITY)
+5. Charcot-Marie tooth disease (DISEASE, CONDITION)
+6. Webril (PRODUCT)
+7. Lidocaine plain (SUBSTANCE)
+8. Marcaine plain (SUBSTANCE)
+9. Mayo block type fashion ( TECHNIQUE)
+10. Esmarch bandage (DEVICE)
+11. Pneumatic ankle tourniquet (DEVICE)
+12. Stockinette (DEVICE)
+13. Wet and dry sponge (DEVICES)
+14. #15 blade (INSTRUMENT)
+15. Extensor digitorum longus tendon (BODY PART)
+16. Extensor digitorum brevis tendon (BODY PART)
+17. Abductor tendon attachments (BODY PART)
+18. Juvaro type oblique base wedge osteotomy (TECHNIQUE)
+19. AO fashion (TECHNIQUE)
+20. Cortical hinge (ANATOMICAL FEATURE)
+21. Reciprocating rasp (INSTRUMENT)
+22. Akin osteotomy (PROEDURE)
+23. Vicryl (SUBSTANCE, MATERIAL)
+24. Monofilament wire (SUBSTANCE)
+25. Dexamethasone phosphate (SUBSTANCE)
+26. Owen silk (SUBLAYING)
+27. Kling (SUBLAYING)
+28. Kerlix (SUBLAYING)
+29. Vicodin (PHARMACEUTICAL)
+30. Naprosyn 500 mg (PHARMACEUTICAL)
+31. Dr. X's office (LOCATION)
+
+Note: Some entities, such as ""Vicryl"" and ""Owen silk"", could be classified under multiple categories (e.g., substance/material and medical supply), but I have only listed the most relevant classification for each entity.
+
+"
+llama3.2,3b,"PREOPERATIVE DIAGNOSES:,1.  Partial rotator cuff tear with impingement syndrome.,2.  Degenerative osteoarthritis of acromioclavicular joint, left shoulder, rule out slap lesion.,POSTOPERATIVE DIAGNOSE...","Here is the list of named entities extracted from the text:
+
+1. Person
+ - John Doe (the patient, age 38)
+2. Organization
+ - ABCD General Hospital
+3. Location
+ - Inpatient Operative Suite, Room #1
+4. Procedure
+ - Arthroscopy with arthroscopic rotator cuff debridement
+ - Anterior acromioplasty
+ - Mumford procedure left shoulder
+5. Medication/Anesthetic
+ - Interscalene block anesthetic
+ - Vicryl (suture material)
+6. Device
+ - 3.5 meniscal shaver
+ - 4.2 meniscal shaver
+ - Micro-Aire saw
+7. Condition
+ - Partial rotator cuff tear with impingement syndrome
+ - Degenerative osteoarthritis of acromioclavicular joint
+8. Surgical Technique
+ - Modified beach chair position
+9. Equipment/Supplies
+ - #18-gauge spinal needles
+ - Pain buster catheter
+10. Date (not explicitly stated, but implied to be the date of surgery)
+
+Note: Some entities may overlap or be mentioned under different categories, but I have tried to provide a clear classification for each one based on its context in the text.
+
+"
+llama3.2,3b,"SUBJECTIVE:,...","I'm ready to help. Please provide the text you'd like me to extract named entities from.
+
+"
+llama3.2,3b,"S -, A 44-year-old, 250-pound male presents with extreme pain in his left heel.  This is his chief complaint.  He says that he has had this pain for about two weeks.  He works on concrete floors.  He ...","Here is the list of named entities extracted from the text:
+
+1. Person - A (44-year-old male, unnamed)
+2. Location - None
+3. Organization - None
+4. Date - None
+5. Condition/Disease - 
+   * Plantar fasciitis (Medical condition)
+   * Pigmentation disorder (Medical condition)
+   * Tinea pedis (Fungal infection)
+6. Body Part - 
+   * Heel
+   * Arms
+   * Face
+   * Legs
+   * Feet
+   * Toes
+7. Substance/Chemical - None
+8. Event - None
+
+Note that some of the entities mentioned in the text are not specific enough to be classified as a particular type (e.g., ""plantar fasciitis"" is a condition, but it's also a medical term). If you'd like me to provide a more detailed classification for those, let me know!
+
+"
+llama3.2,3b,"IDENTIFICATION OF PATIENT: , The patient is a 34-year-old Caucasian female.,CHIEF COMPLAINT:,  Depression.,HISTORY OF PRESENT ILLNESS:,  The patient's depression began in her teenage years.  Sleep has...","Here is the list of extracted named entities along with their types:
+
+1. Patient (PERSON)
+2. Teenage years (TIME PERIOD)
+3. Cymbalta (DRUG)
+4. Wellbutrin (DRUG)
+5. Stephanie Kitchen (PERSON, THERAPIST)
+
+Note: There are no specific locations mentioned in the text.
+
+Also, some events and experiences mentioned in the text could be considered as entities, but they do not fit into any of the provided categories. For example:
+
+1. Cutting her wrists (ACTION EVENT)
+2. Realizing it was a stupid thing to do (MENTAL STATE)
+3. Issues with a boyfriend (EMOTIONAL EXPERIENCE)
+
+However, these are not explicitly mentioned in the list of named entities and should be considered as descriptive elements within the overall narrative.
+
+"
+llama3.2,3b,"DUPLEX ULTRASOUND OF LEGS,RIGHT LEG:,  Duplex imaging was carried out according to normal protocol with a 7.5 Mhz imaging probe using B-mode ultrasound.  Deep veins were imaged at the level of the com...","Here is the list of named entities extracted from the text:
+
+1. Duplex ultrasound - MEDICAL PROCEDURE
+2. Legs - BODY PART
+3. B-mode ultrasound - MEDICAL EQUIPMENT
+4. Common femoral vein - VEIN
+5. Popliteal vein - VEIN
+6. Long saphenous system - ANATOMICAL STRUCTURE
+7. Small saphenous system - ANATOMICAL STRUCTURE
+8. Left leg - BODY PART
+
+Note that there are no specific named entities for the measurement units (cm) or time units (seconds), as they are not referring to a person, organization, location, or other concept.
+
+Also, there is no date mentioned in the text.
+
+"
+llama3.2,3b,"CHIEF COMPLAINT: , ""Bloody bump on penis."",HISTORY OF PRESENT ILLNESS: , This is a 29-year-old African-American male who presents to the Emergency Department today with complaint of a bleeding bump on...","Here is the list of extracted named entities with their respective types:
+
+1. **Person**:
+ * Patient (male, African-American, 29 years old)
+2. **Location**:
+ * None explicitly mentioned
+3. **Organization**:
+ * Emergency Department
+ * Urology department
+4. **Date**:
+ * None explicitly mentioned, but there is a mention of ""today"" and ""last night""
+5. **Medication**:
+ * None explicitly mentioned
+6. **Medical condition**:
+ * Penile mass (pedunculated)
+7. **Body part**:
+ * Penis
+8. **Organ**:
+ * Urethra
+9. **Concept**:
+ * Monogamy
+10. **Event**:
+ * Surgery for excision of a bullet after being shot in the back
+11. **Substance**:
+ * Tobacco (smoked)
+ * Alcohol (consumed)
+12. **Measurement**:
+ * Temperature (98.4°F)
+ * Blood pressure (139/78 mmHg)
+ * Pulse (83 beats/min)
+13. **Procedure**:
+ * Excision and biopsy of penile mass
+
+"
+llama3.2,3b,"PROCEDURE IN DETAIL:,  After appropriate operative consent was obtained, the patient was brought supine to the operating room and placed on the operating room table.  After intravenous sedation was ad...","Here is the list of extracted named entities along with their types:
+
+1. Patient (PERSON)
+2. Xylocaine (MEDICINE/DRUG)
+3. Marcaine (MEDICINE/DRUG)
+4. Wydase (MEDICINE/DRUG)
+5. Operating Room (LOCATION)
+6. Eye (ANATOMY/BODY PART)
+7. Limbus (ANATOMY/BODY PART)
+8. Rectus muscles (ANATOMY/BODY PART)
+
+"
